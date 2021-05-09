@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c472c3a-1f19-473a-875a-2f9d34b69043" name="Default Changelist" comment="Personal website">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/AboutMe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Project.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Skills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/TechStack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Title.js" afterDir="false" />
+    <list default="true" id="4c472c3a-1f19-473a-875a-2f9d34b69043" name="Default Changelist" comment="adding images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +34,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -89,8 +79,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620184336768</updated>
-      <workItem from="1620184340424" duration="72389000" />
+      <workItem from="1620184340424" duration="73310000" />
     </task>
+    <task id="LOCAL-00001" summary="Personal website">
+      <created>1620569050538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620569050538</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding images">
+      <created>1620569308376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620569308376</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +114,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Personal website" />
-    <option name="LAST_COMMIT_MESSAGE" value="Personal website" />
+    <MESSAGE value="adding images" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding images" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
