@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.9907c9e1.chunk.css",
+    "main.js": "/personal-website/static/js/main.2d14a1c6.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.2d14a1c6.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.511ad8b1.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.511ad8b1.js.map",
+    "static/css/2.2aa38b9c.chunk.css": "/personal-website/static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.08a48890.chunk.js": "/personal-website/static/js/2.08a48890.chunk.js",
+    "static/js/2.08a48890.chunk.js.map": "/personal-website/static/js/2.08a48890.chunk.js.map",
+    "static/js/3.27ea1c6c.chunk.js": "/personal-website/static/js/3.27ea1c6c.chunk.js",
+    "static/js/3.27ea1c6c.chunk.js.map": "/personal-website/static/js/3.27ea1c6c.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "static/css/2.2aa38b9c.chunk.css.map": "/personal-website/static/css/2.2aa38b9c.chunk.css.map",
+    "static/css/main.9907c9e1.chunk.css.map": "/personal-website/static/css/main.9907c9e1.chunk.css.map",
+    "static/js/2.08a48890.chunk.js.LICENSE.txt": "/personal-website/static/js/2.08a48890.chunk.js.LICENSE.txt",
+    "static/media/Javascript.2e10b2a2.png": "/personal-website/static/media/Javascript.2e10b2a2.png",
+    "static/media/Selenium.1f9ab309.png": "/personal-website/static/media/Selenium.1f9ab309.png",
+    "static/media/cypress.c07cf66b.png": "/personal-website/static/media/cypress.c07cf66b.png",
+    "static/media/django.e9fc01a2.webp": "/personal-website/static/media/django.e9fc01a2.webp",
+    "static/media/docker.b2ba4208.png": "/personal-website/static/media/docker.b2ba4208.png",
+    "static/media/egg.10600571.svg": "/personal-website/static/media/egg.10600571.svg",
+    "static/media/java.311ea989.png": "/personal-website/static/media/java.311ea989.png",
+    "static/media/mysql-logo.02d89fb2.svg": "/personal-website/static/media/mysql-logo.02d89fb2.svg",
+    "static/media/nodejs.8e341cc0.png": "/personal-website/static/media/nodejs.8e341cc0.png",
+    "static/media/postgresql.9f8f5cd9.png": "/personal-website/static/media/postgresql.9f8f5cd9.png",
+    "static/media/python.2e65c2b7.png": "/personal-website/static/media/python.2e65c2b7.png",
+    "static/media/react.ffff9548.svg": "/personal-website/static/media/react.ffff9548.svg",
+    "static/media/visualize-it.d5593f1d.png": "/personal-website/static/media/visualize-it.d5593f1d.png",
+    "static/media/whitelogo.9db8cddc.svg": "/personal-website/static/media/whitelogo.9db8cddc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.511ad8b1.js",
+    "static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.08a48890.chunk.js",
+    "static/css/main.9907c9e1.chunk.css",
+    "static/js/main.2d14a1c6.chunk.js"
+  ]
+}
