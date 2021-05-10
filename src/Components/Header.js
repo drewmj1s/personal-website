@@ -3,6 +3,8 @@ import ToolBar from '@material-ui/core/ToolBar'
 import Slide from '@material-ui/core/Slide';
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import logo from '../Pictures/whitelogo.svg'
+import IconButton from '@material-ui/core/IconButton'
+import Button from '@material-ui/core/Button'
 import gh from '../Pictures/GitHub.png'
 import li from '../Pictures/linkedin.png'
 import EmailIcon from '@material-ui/icons/Email';
@@ -16,22 +18,23 @@ function Header(props) {
     const logoStyle = {
         borderRadius: 100,
         backgroundColor: '#03045E',
-        width: '100%',
-        height: '100%',
+        width: '80px',
+        height: '80px',
     };
     const space = {
-        width: '90%'
+        width: '80%'
     };
     const socialsContainer = {
         display: 'flex',
         flexDirection: 'row',
+        alignItems: 'center'
     };
     const socialContainerStyle = {
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
-        margin: '3px',
-        color: 'white'
+        color: 'white',
+        height: '50%'
     };
     const socialIconStyle = {
         width: '45px',
@@ -47,20 +50,26 @@ function Header(props) {
                 <div style={space}>
                 </div>
                 <div style={socialsContainer}>
+
                     <div>
-                        <a href={"https://github.com/drewmj1s"} style={socialContainerStyle}>
+                        <IconButton href={"https://github.com/drewmj1s"} style={socialContainerStyle}>
                             <img style={socialIconStyle} alt="github" src={gh}/>
-                        </a>
+                        </IconButton>
                     </div>
                     <div>
-                        <a href={"https://www.linkedin.com/in/andrew-jones-612824211/"} style={socialContainerStyle}>
+                        <IconButton href={"https://www.linkedin.com/in/andrew-jones-612824211/"} style={socialContainerStyle}>
                             <img style={socialIconStyle} alt="linkedin" src={li}/>
-                        </a>
+                        </IconButton>
                     </div>
                     <div style={socialsContainer}>
-                        <a style={socialContainerStyle} href={"mailto:tech.andrewjones@gmail.com"}>
+                        <IconButton style={socialContainerStyle} href={"mailto:tech.andrewjones@gmail.com"}>
                             <EmailIcon fontSize="large"/>
-                        </a>
+                        </IconButton>
+                    </div>
+                    <div style={socialsContainer}>
+                        <Button style={socialContainerStyle} variant={"contained"} color={"secondary"}>
+                            Resume
+                        </Button>
                     </div>
                 </div>
             </ToolBar>
