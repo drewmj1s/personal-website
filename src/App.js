@@ -32,7 +32,7 @@ const theme = createMuiTheme({
             babypowder: '#FDFFFC',
         }
     },
-});
+})
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,

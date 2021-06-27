@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c472c3a-1f19-473a-875a-2f9d34b69043" name="Default Changelist" comment="adding images">
-      <change afterPath="$PROJECT_DIR$/src/Components/Animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Animations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Lava.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Title.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
