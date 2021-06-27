@@ -26,7 +26,8 @@ function Projects(props) {
                 // position={"left"}
                 picture={V_IT_PIC}
                 icon={0}
-                roles={["Software Engineer", "Scrum Master", "Software Tester"]}/>
+                techstack={"React, MySQL, Material UI, NodeJS"}
+                roles={"Software Engineer, Scrum Master, Software Tester"}/>
             <Project project_name="Live Well"
                      theme={props.theme}
                      classes={props.classes}
@@ -39,7 +40,7 @@ function Projects(props) {
                 // position = {"right"}
                      icon={1}
                      techstack={"React, MySQL, Material UI, NodeJS"}
-                     roles={["Software Engineer", "Scrum Master", "Software Tester"]}/>
+                     roles={"Software Engineer, Scrum Master, Software Tester"}/>
             <Project project_name="Carol Lee Donuts"
                      theme={props.theme}
                      classes={props.classes}
@@ -49,6 +50,7 @@ function Projects(props) {
                      "sales for their menu online."}
                      date={"2019"}
                      techstack={"Django, PostgreSQL, Selenium, HTML, CSS"}
+                     roles={"Software Engineer, Project Manager"}
                      icon={2}/>
             <VerticalTimelineElement
                 iconStyle={iconStyle}

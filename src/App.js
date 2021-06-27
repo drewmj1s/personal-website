@@ -4,11 +4,12 @@ import Header from './Components/Header.js'
 import Title from './Components/Title.js'
 import Projects from './Components/Projects.js'
 import Skills from './Components/Skills.js'
+import Animations from './Components/Animations.js'
 import {createMuiTheme, makeStyles} from '@material-ui/core/styles'
 import {ThemeProvider} from '@material-ui/styles'
 import 'react-vertical-timeline-component/style.min.css';
 import AboutMe from "./Components/AboutMe";
-
+import {LinearProgress} from "@material-ui/core";
 const theme = createMuiTheme({
     palette: {
         primary: {
@@ -49,7 +50,7 @@ function App() {
         <ThemeProvider theme={theme}>
             <div id={"portfolio"}>
                 <Header/>
-                <Title/>
+                <Title />
                 <br/>
                 <AboutMe/>
                 <br/>
@@ -58,6 +59,7 @@ function App() {
                 <hr style={{width: "80%", margin: "auto"}}/>
                 <br/>
                 <Projects theme={theme} classes={classes}/>
+                <Animations/>
             </div>
         </ThemeProvider>
     );

@@ -25,9 +25,18 @@ function Project(props) {
         borderBottom: '1px solid black',
         alignItems: 'center',
     };
+    const projectContentStyle = {
+        background: 'white',
+        color: '#000',
+        padding: 0,
+        marginBottom: 0,
+        borderTopLeftRadius: '10px',
+        borderTopRightRadius: '10px',
+        borderTop: '6px solid '+ props.theme.palette.primary.main
+    }
     return <VerticalTimelineElement
         // className={props.classes.paper}
-        contentStyle={{background: 'white', color: '#000', padding: 0, marginBottom: 0}}
+        contentStyle={projectContentStyle}
         contentArrowStyle={{borderRight: '12px solid ' + props.theme.palette.primary.main,}}
         date={props.date}
         // position={position}
@@ -45,7 +54,8 @@ function Project(props) {
                         </a> : null}
                 </div>
                 <p style={{color: "#000"}}>{props.description}</p>
-                <p style={{color: "gray", marginTop: "2px"}}>{props.techstack}</p>
+                <p style={{color: "gray", marginTop: "2px"}}>{props.roles}</p>
+                <p style={{color: "gray", marginTop: "2px", fontSize: 13}}>{props.techstack}</p>
             </div>
             {/*{props.picture? <img src={props.picture} width={500} height={200}/> : null}*/}
         </div>
